@@ -11,6 +11,6 @@ public static class Messages
 {
     public static string ProductAdded = "Urun eklendi";
     public static string ProductNameInvalid = "Urun ismi gecersiz";
-    internal static List<Product> MaintenanceTime;
-    internal static string ProductListed;
+    internal static string MaintenanceTime = "Sistem bakimda";
+    internal static string ProductListed = "Urunler listelendi";
 }
