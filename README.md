@@ -21,4 +21,4 @@
 
 - FluentValidation: Bu, nesne doğrulama kurallarını tanımlamak ve uygulamak için kullanılan bir kütüphanedir. Özellikle giriş modeli doğrulaması için yaygın olarak kullanılır. FluentValidation sayesinde karmaşık doğrulama kuralları tanımlamak daha kolay ve okunabilir hale gelir.
 
-- AOP (Aspect-Oriented Programming):AOP, bir uygulamadaki genel konuların (örneğin, günlükleme, hata yönetimi) kodun içine gömülmesini engelleyip, bunları ayrı bir yapı içinde ele alarak kodun daha temiz ve bakımı daha kolay hale gelmesini sağlar.
+- AOP (Aspect-Oriented Programming):AOP, bir uygulamadaki genel konuların kodun içine gömülmesini engelleyip, bunları ayrı bir yapı içinde ele alarak kodun daha temiz ve bakımı daha kolay hale gelmesini sağlar.
