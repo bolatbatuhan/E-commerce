@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using CorePackages.Entities.Concrete;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,14 @@ public static class Messages
     public static string ProductListed = "Urunler listelendi";
     public static string ProductCountOfCategoryError = "Bir kategoride en fazla 10 urun olabilir.";
     public static string ProductNameAlreadyExits = "Bu isimde zaten baska bir urun var.";
-    internal static string CategoryLimitExceded = "Kategori limiti asildigi icin yeni urun eklenemiyor.";
+    public static string CategoryLimitExceded = "Kategori limiti asildigi icin yeni urun eklenemiyor.";
+
+
+    public static string AuthorizationDenied = "Yetkiniz yok";
+    public static string UserRegistered = "Kayit olundu";
+    public static string UserNotFound = "Kullanici bulunamadi";
+    public static string PasswordError = "Sifre hatali";
+    public static string SuccessfulLogin = "Sisteme basariyla giris yapildi";
+    public static string UserAlreadyExists = "Bu kullanici zaten mevcut";
+    public static string AccessTokenCreated = "Access token basariyla olusturuldu";
 }
